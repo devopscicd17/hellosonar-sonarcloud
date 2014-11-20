@@ -9,7 +9,10 @@
 	<name>SonarDemo</name>
 	<description>The Sonar Demo Example</description>
 	<url>http://maven.apache.org</url>
-
+	
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
 	<build>
 		<pluginManagement>
 			<plugins>
